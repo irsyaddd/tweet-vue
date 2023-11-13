@@ -1,3 +1,7 @@
+<script setup lang="ts">
+const props = defineProps(["hashtags"]);
+</script>
+
 <template>
   <p>
     <slot />
@@ -10,7 +14,3 @@
     </span>
   </p>
 </template>
-
-<script setup lang="ts">
-const props = defineProps(["hashtags"]);
-</script>
