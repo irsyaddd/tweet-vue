@@ -14,9 +14,9 @@ useHead({ title: "Tweet Embed Component" });
       <TweetInfo :date="tweet.date" :timestamp="tweet.timestamp" />
     </Container>
     <div
-      class="md:w-[63%] lg:w-[36%] my-3 text-sm lowercase text-white/30 italic flex items-center"
+      class="md:w-[63%] lg:w-[36%] my-3 text-sm lowercase text-white/30 italic flex items-center gap-1"
     >
-      Inspiration Source :
+      Inspiration Source:
       <div class="relative pr-4">
         <NuxtLink
           to="https://codedesign.dev/challenge/twitter-embed"
